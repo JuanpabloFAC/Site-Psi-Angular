@@ -1,0 +1,91 @@
+.main-header {    
+    padding: 10px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.main-header__title {    
+    font-size: 80px;
+    letter-spacing: -1.5px;    
+}
+
+.main-header__title--marrom {
+    color: var(--blue);
+    color: rgb(185, 166, 144);
+    font-size:60px;
+}
+
+.main-header__title--verde {
+    color: var(--orange);
+    color: rgb(122, 150, 126);
+    font-size:60px;
+}
+
+.main-header__menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-header__menu a {
+    padding: 10px 10px;
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.main-header__menu a:hover {
+    background-color: rgb(185, 166, 144);
+    color: #fff;
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    flex: 1;
+}
+
+.badge-carrinho {
+    background-color: rgb(122, 150, 126);
+    padding: 5px 10px;    
+    border-radius: 4px;
+    color: white;
+    margin-left: 10px;
+    
+}
+
+.search-form{
+    height: 44px;
+    display: flex;
+}
+
+.search-form input{
+    box-sizing: border-box;
+    height: 56px;
+    padding: 28px;
+    flex:1;
+    background-color: var(--light-gray);
+    color: var(--gray);
+    border: none;
+    transition: all -3s ease-in-out;
+    font-size: 22px;
+}
+
+.search-form button{
+    width: 56px;
+    height: 56px;
+    background-color: rgb(122, 150, 126);
+    border:none;
+    color: #fff;
+    font-size: 22px;
+}
+
+.fa-brain {
+    margin-left: 10px;
+    color: rgb(185, 166, 144);
+}
